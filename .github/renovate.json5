@@ -1,0 +1,24 @@
+{
+  timezone: "Asia/Tokyo",
+  baseBranches: ["main"],
+  extends: ["config:base", ":semanticCommitTypeAll(chore)"],
+  enabledManagers: ["npm"],
+  dependencyDashboard: true,
+  schedule: ["after 1pm on monday"],
+  automergeSchedule: ["after 1pm on tuesday"],
+  labels: ["dependencies"],
+  rangeStrategy: "bump",
+  lockFileMaintenance: {
+    enabled: true,
+    automerge: true,
+  },
+  packageRules: [
+    {
+      matchManagers: ["npm"],
+      matchUpdateTypes: ["patch", "minor", "major"],
+      matchPackagePatterns: ["*"],
+      matchDepTypes: ["dependencies", "devDependencies", "peerDependencies"],
+      automerge: true,
+    },
+  ],
+}

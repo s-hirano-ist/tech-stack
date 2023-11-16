@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "node_modules/**": true
+  },
+  "files.watcherExclude": {
+    "node_modules/**": true
+  },
+  "search.exclude": {
+    "node_modules/**": true
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "editor.formatOnSave": true,
+  "cSpell.enabled": true,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.words": ["astro", "astrojs", "mdast", "rehype"]
+}
