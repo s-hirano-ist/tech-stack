@@ -16,5 +16,5 @@
   "editor.formatOnSave": true,
   "cSpell.enabled": true,
   "cSpell.allowCompoundWords": true,
-  "cSpell.words": ["astro", "astrojs", "mdast", "notistack", "rehype"]
+  "cSpell.words": ["astro", "astrojs", "mdast", "notistack", "rehype", "tsoa"]
 }
