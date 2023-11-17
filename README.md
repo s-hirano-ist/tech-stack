@@ -7,3 +7,9 @@ My tech stack of JavaScript and Python
 ```bash
 pnpm update --latest
 ```
+
+## update pyproject.toml
+
+```bash
+poetry update
+```

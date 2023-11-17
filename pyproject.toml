@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "tech-stack"
+version = "1.0.0"
+description = "tech stack of Python"
+authors = ["s-hirano-ist"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+pre-commit = "^3.2.2"
+seaborn = "^0.13.0"
+matplotlib = "^3.8.1"
+pandas = "^2.1.3"
+jupyterlab = "^4.0.8"
+networkx = "^3.2.1"
+scikit-learn = "^1.3.2"
+joblib = "^1.3.2"
+tqdm = "^4.66.1"
+numpy = "^1.26.2"
+scipy = "^1.11.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -2,7 +2,7 @@
   "name": "tech-stack",
   "version": "1.0.0",
   "description": "tech-stack of JavaScript",
-  "author": "Soraki Hirano",
+  "author": "s-hirano-ist",
   "packageManager": "pnpm@8.10.4",
   "dependencies": {
     "@apollo/client": "^3.8.7",
